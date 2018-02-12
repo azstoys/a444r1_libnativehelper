@@ -31,7 +31,7 @@ LOCAL_SRC_FILES := \
     JniInvocation.cpp
 LOCAL_SHARED_LIBRARIES := liblog
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE := libnativehelper
+LOCAL_MODULE := libnativehelperaz
 LOCAL_CFLAGS := -Werror
 LOCAL_C_INCLUDES := external/stlport/stlport bionic/ bionic/libstdc++/include libcore/include
 LOCAL_SHARED_LIBRARIES += libcutils libstlport libdl
